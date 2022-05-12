@@ -1,4 +1,3 @@
-import './App.css';
 import Hero from './components/atoms/Hero';
 
 function App() {

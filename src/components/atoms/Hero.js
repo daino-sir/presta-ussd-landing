@@ -3,14 +3,18 @@ import HeroImg from '../../assets/imgs/hero-img.png';
 
 function Hero() {
   return (
-    <div className='flex flex-col md:flex-row items-center content-center h-screen w-full'>
-        <div className='flex flex-col md:w-6/12 border border-black'>
-        <h1 className="text-4xl text-left font-bold text-blue-600">
+    <div className='flex flex-col md:flex-row items-center content-center justify-center h-screen w-full'>
+        <div className='flex flex-col md:w-6/12 h-2/6 justify-evenly md:px-8'>
+        <h1 className="text-6xl md:text-6xl md:text-left font-bold text-blue-600 text-center">
             Presta USSD
         </h1>
-        <p className='text-blue-600 text-left'>Guarantee loans Anywhere and Anytime</p>
+        <p className='text-blue-600 text-center md:text-left'>Guarantee loans Anywhere and Anytime</p>
+        <div className='flex flex-col w-full items-center md:flex-row'>
+          <button className='w-52 md:w-36 rounded-md button text-current'>Sign In</button>
+          <button className='w-52 md:w-36 my-2 md:mx-2 rounded-md button text-current'>Sign Up</button>
         </div>
-        <div className='hidden md:flex border w-6/12 border-black'>
+        </div>
+        <div className='hidden md:flex w-6/12'>
         <img className='w-full h-full bg-center' src={HeroImg} alt='hero_img'/>
         </div>
     </div>
