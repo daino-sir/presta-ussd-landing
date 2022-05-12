@@ -56,3 +56,20 @@ h1 {
 .blue {
     background-color: #3A73BE;
 }
+
+.yellow {
+    background-color: #c4bb1b;
+    height: 100vh;
+}
+
+@media (min-width: 768px) {
+    .yellow {
+        height: 230vh;
+    }
+}
+
+.sample-bg {
+    background: url('./assets/imgs/pattern_1.png');
+    background-position: center;
+    background-size: cover;
+}
