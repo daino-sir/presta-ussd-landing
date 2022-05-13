@@ -3,7 +3,7 @@ import HeroImg from '../../assets/imgs/hero-img.png';
 
 function Hero() {
   return (
-    <div className='flex flex-col md:flex-row items-center content-center justify-center h-screen w-full'>
+    <div className='flex flex-col md:flex-row items-center content-center justify-center h-screen w-full bg-white'>
         <div className='flex flex-col md:w-6/12 h-2/6 justify-evenly md:px-8'>
         <h1 className="text-6xl font-black md:text-8xl md:text-left font-bold text-blue-600 text-center">
             Presta USSD
