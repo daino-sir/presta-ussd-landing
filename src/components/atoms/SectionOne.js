@@ -1,6 +1,4 @@
 import React from 'react';
-import ImageOne from '../../assets/imgs/_section_one.png';
-import ImageOneMob from '../../assets/imgs/_section_one_mob.png';
 import ImageTwo from '../../assets/imgs/_section_one2.png';
 import ImageTwoMob from '../../assets/imgs/_section_one2_mob.png';
 
