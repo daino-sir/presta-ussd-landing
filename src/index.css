@@ -78,3 +78,10 @@ h1 {
     background-position: center;
     background-size: cover;
 }
+
+.bg-2 {
+    background: url('./assets/imgs/_section_two.png');
+    background-position: center;
+    background-size: cover;
+    background-color: #c4bb1b;
+}
