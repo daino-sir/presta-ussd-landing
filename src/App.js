@@ -1,3 +1,4 @@
+import FAQsection from './components/atoms/FAQsection';
 import Hero from './components/atoms/Hero';
 import SectionOne from './components/atoms/SectionOne';
 import SectionThree from './components/atoms/SectionThree';
@@ -10,6 +11,7 @@ function App() {
     <SectionOne/>
     <SectionTwo/>
     <SectionThree/>
+    <FAQsection/>
     </>
     
   )
