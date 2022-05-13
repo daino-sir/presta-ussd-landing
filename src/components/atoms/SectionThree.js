@@ -4,8 +4,8 @@ import ImageOneMob from '../../assets/imgs/bg_3_mob.png';
 
 function SectionThree() {
   return (
-    <div className='w-full flex flex-col w-full'>
-     <img alt='section_two' src={ImageOne} className='hidden md:flex object-none h-full w-full'/>  
+    <div className='w-full flex flex-col w-full yellow-bg'>
+     <img alt='section_two' src={ImageOne} className='hidden md:flex object-none h-full w-full rounded-3xl'/>  
      <img alt='section_two' src={ImageOneMob} className='flex md:hidden object-none h-full w-full'/>  
     </div>
   )

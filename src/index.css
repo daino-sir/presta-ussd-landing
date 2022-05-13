@@ -62,6 +62,10 @@ h1 {
     height: 100vh;
 }
 
+.yellow-bg {
+    background-color: #c4bb1b;
+}
+
 @media (min-width: 768px) {
     .yellow {
         height: 230vh;
