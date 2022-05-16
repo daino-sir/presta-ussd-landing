@@ -6,6 +6,31 @@ import SectionThree from './components/atoms/SectionThree';
 import SectionTwo from './components/atoms/SectionTwo';
 
 function App() {
+
+  state = {
+    data: null
+  };
+  const [data, setData]=useState(null);
+
+  useEffect(() => {
+    //update api response
+    this.callBackendAPI()
+      .then(res => this.setState({ data: res.express }))
+      .catch(err => console.log(err));
+  });
+
+
+  const callBackendAPI = async () => {
+    const response = await fetch('/express_backend');
+    const body = await response.json();
+
+    if (response.status !== 200) {
+      throw Error(body.message) 
+    }
+    return body;
+  };
+
+
   return (
     <>
     <Hero/>

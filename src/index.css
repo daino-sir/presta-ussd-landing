@@ -8,6 +8,17 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-weight: bolder;
+    background-color: #3A73BE;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.dual-bg {
+    background: url('./assets/imgs/dual-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-color: white;
 }
 
 h1 {
@@ -77,4 +88,11 @@ h1 {
     background: url('./assets/imgs/pattern_1.png');
     background-position: center;
     background-size: cover;
+}
+
+.bg-2 {
+    background: url('./assets/imgs/_section_two.png');
+    background-position: center;
+    background-size: cover;
+    background-color: #c4bb1b;
 }
