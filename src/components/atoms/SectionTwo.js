@@ -6,8 +6,8 @@ function SectionTwo() {
   return (
     <>
     <div className='flex yellow md:mt-96 justify-center items-center'>
-     <div className='w-4/5 h-4/5'>
-     <img alt='section_two' src={ImageOne} className='hidden md:flex object-cover md:mt-48 rounded-3xl'/>  
+     <div className='w-full h-full'>
+     <img alt='section_two' src={ImageOne} className='hidden md:flex object-cover md:mt-48'/>  
      <img alt='section_two' src={ImageTwo} className='flex md:hidden object-cover mt-40 rounded-3xl'/>  
     </div>
      </div>
