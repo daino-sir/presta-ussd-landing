@@ -6,7 +6,7 @@ import { config } from '../../data/constants/config';
 function FAQsection() {
   return (
     <div className='flex flex-col justify-center h-screen bg-white w-full'>
-      <div className='h-full w-full flex flex-col px-12 md:px-36'>
+      <div className='h-full w-full flex flex-col px-12 font-thin md:px-36'>
       <Faq
         data={FAQdata}
         styles={styles}

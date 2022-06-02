@@ -8,7 +8,7 @@ function SectionOne() {
         <div className='h-32 w-full blue sample-bg'>
         <div className='h-full flex flex-col justify-center'>
         <div className='flex flex-col justify-center'>
-        <h1 className="text-xl md:text-2xl md:text-center text-white text-center">
+        <h1 className="text-xl md:text-2xl md:text-center font-thin text-white text-center">
             Organisations that already use Presta USSD
         </h1>
         </div>
