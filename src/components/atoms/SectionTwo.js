@@ -7,7 +7,7 @@ function SectionTwo() {
     <>
     <div className='flex yellow md:mt-96 justify-center items-center'>
      <div className='w-full h-full'>
-     <img alt='section_two' src={ImageOne} className='hidden md:flex object-cover md:mt-48'/>  
+     <img alt='section_two' src={ImageOne} className='hidden md:flex object-cover md:mt-80'/>  
      <img alt='section_two' src={ImageTwo} className='flex md:hidden object-cover mt-40 rounded-3xl'/>  
     </div>
      </div>
