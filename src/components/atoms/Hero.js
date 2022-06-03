@@ -10,8 +10,8 @@ function Hero() {
         </h1>
         <p className='text-lg font-thin md:text-xl text-blue-600 text-center md:text-left'>Guarantee loans Anywhere and Anytime</p>
         <div className='flex flex-col w-full items-center md:flex-row'>
-          <button className='w-52 font-thin md:w-36 rounded-md button text-current'>Sign Up</button>
-          <button className='w-52 font-thin md:w-36 my-2 md:mx-2 rounded-md button text-current'>Sign In</button>
+          <button className='w-52 font-thin md:w-36 rounded-md button text-current'>Get Demo</button>
+          {/* <button className='w-52 font-thin md:w-36 my-2 md:mx-2 rounded-md button text-current'>Sign In</button> */}
         </div>
         </div>
         <div className='hidden md:flex w-6/12'>
