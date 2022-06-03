@@ -7,7 +7,6 @@ body {
     font-family: 'Poppins', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-weight: bolder;
     background-color: #3A73BE;
     display: flex;
     flex-direction: column;
