@@ -10,6 +10,10 @@ function App() {
     <>
     <Hero/>
     <Partners/>
+    <SectionTwo/>
+    <SectionThree/>
+    <FAQsection/>
+    <Footer/>
     </>
     
   )
