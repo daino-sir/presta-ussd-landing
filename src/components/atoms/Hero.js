@@ -1,5 +1,6 @@
 import React from 'react';
 import HeroImg from '../../assets/imgs/hero-bg.png';
+import Logo from '../../assets/imgs/Presta_Sign_Logo_colour.svg'
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
@@ -14,7 +15,7 @@ const navigation = [
 
 function Hero() {
   return (
-    <div className="relative bg-white overflow-hidden">
+    <div className="relative h-screen bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto">
         <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
           <svg
@@ -36,8 +37,8 @@ function Hero() {
                       <span className="sr-only">Workflow</span>
                       <img
                         alt="Workflow"
-                        className="h-8 w-auto sm:h-10"
-                        src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                        className="h-11 w-auto sm:h-10"
+                        src={Logo}
                         //Logo image
                       />
                     </a>
@@ -115,11 +116,11 @@ function Hero() {
 
           <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center lg:text-left">
-              <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+              <h1 className="text-4xl tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
                 <span className="block xl:inline">Guarantee Loans</span>{' '}
-                <span className="block text-indigo-600 xl:inline">Anywhere and Anytime</span>
+                <span className="block font-extrabold blue-text xl:inline">Anywhere & Anytime</span>
               </h1>
-              <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+              <p className="mt-3 text-base font-semibold black-text sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
               We understand urgency, so we have a quick and easy online application that takes no time at all, and you have access to 24/7.
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">

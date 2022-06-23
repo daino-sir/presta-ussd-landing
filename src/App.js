@@ -9,11 +9,6 @@ function App() {
   return (
     <>
     <Hero/>
-    {/* <SectionOne/>
-    <SectionTwo/>
-    <SectionThree/>
-    <FAQsection/>
-    <Footer/> */}
     </>
     
   )
