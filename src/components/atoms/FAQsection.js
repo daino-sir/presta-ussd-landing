@@ -15,19 +15,20 @@ function FAQsection() {
   //   </div>
   //     );
   return (
-    <div className='flex flex-col justify-center h-screen bg-white w-full'>
-
-    <div className="w-full h-screen px-4 pt-16">
-      <div className="mx-auto w-full max-w-md rounded-2xl bg-white p-2">
-        <Disclosure>
-          {({ open }) => (
+    <div className='flex flex-col px-6 bg-white w-full bg-white'>
+    <div className="w-full py-16">
+    <h1 className="text-3xl md:text-6xl font-black text-blue-600 text-center">FAQ's</h1>
+    </div>
+    <div className="w-9/12 self-center py-2">
+    <Disclosure>
+        {({ open }) => (
             <>
-              <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
-                <span>What is your refund policy?</span>
+              <Disclosure.Button className="flex w-full justify-between rounded-lg px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200">
+                <span className='text-base md:text-lg font-black text-blue-600 text-center'>1.  Do I need to physically go to my Sacco and collect a Loan Application Form?</span>
                 <ChevronUpIcon
                   className={`${
                     open ? 'rotate-180 transform' : ''
-                  } h-5 w-5 text-purple-500`}
+                  } h-5 w-5 text-gray-500`}
                 />
               </Disclosure.Button>
               <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
@@ -37,33 +38,69 @@ function FAQsection() {
             </>
           )}
         </Disclosure>
-        <Disclosure as="div" className="mt-2">
+        </div>
+        <div className="w-9/12 self-center py-2">
+        <Disclosure>
           {({ open }) => (
             <>
-              <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
-                <span>Do you offer technical support?</span>
+              <Disclosure.Button className="flex w-full justify-between rounded-lg px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200">
+                <span className='text-base md:text-lg font-black text-blue-600 text-center'>2.  How will I know that my guarantors have approved and Signed my loan Request?</span>
                 <ChevronUpIcon
                   className={`${
                     open ? 'rotate-180 transform' : ''
-                  } h-5 w-5 text-purple-500`}
+                  } h-5 w-5 text-gray-500`}
                 />
               </Disclosure.Button>
               <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
-                No.
+                If you're unhappy with your purchase for any reason, email us
+                within 90 days and we'll refund you in full, no questions asked.
               </Disclosure.Panel>
             </>
           )}
         </Disclosure>
-      </div>
+        </div>
+        <div className="w-9/12 self-center py-2">
+        <Disclosure>
+          {({ open }) => (
+            <>
+              <Disclosure.Button className="flex w-full justify-between rounded-lg px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200">
+                <span className='text-base md:text-lg font-black text-blue-600 text-center'>3.  How can I change my guarantors if one rejects my Loan?</span>
+                <ChevronUpIcon
+                  className={`${
+                    open ? 'rotate-180 transform' : ''
+                  } h-5 w-5 text-gray-500`}
+                />
+              </Disclosure.Button>
+              <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
+                If you're unhappy with your purchase for any reason, email us
+                within 90 days and we'll refund you in full, no questions asked.
+              </Disclosure.Panel>
+            </>
+          )}
+        </Disclosure>
+        </div>
+        <div className="w-9/12 self-center py-2 pb-16">
+        <Disclosure>
+          {({ open }) => (
+            <>
+              <Disclosure.Button className="flex w-full justify-between rounded-lg px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200">
+                <span className='text-base md:text-lg font-black text-blue-600 text-center'>4.  What if my guarantors don’t have a smart phone to access their email to sign the form?</span>
+                <ChevronUpIcon
+                  className={`${
+                    open ? 'rotate-180 transform' : ''
+                  } h-5 w-5 text-gray-500`}
+                />
+              </Disclosure.Button>
+              <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
+                If you're unhappy with your purchase for any reason, email us
+                within 90 days and we'll refund you in full, no questions asked.
+              </Disclosure.Panel>
+            </>
+          )}
+        </Disclosure>
     </div>
     </div>
   )
 }
-// const styles = {
-//   // bgColor: 'white',
-//   titleTextColor: "#3A73BE",
-//   rowTitleColor: "blue",
-//   // rowContentColor: 'grey',
-//   // arrowColor: "red",
-// };
+
 export default FAQsection;
