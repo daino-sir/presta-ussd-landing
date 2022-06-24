@@ -32,8 +32,11 @@ function FAQsection() {
                 />
               </Disclosure.Button>
               <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
-                If you're unhappy with your purchase for any reason, email us
-                within 90 days and we'll refund you in full, no questions asked.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper morbi vel montes, 
+              ipsum ultricies mi nunc, scelerisque ac. Lacus facilisis porttitor aliquam quam consectetur. 
+              Diam ultrices sem purus felis lectus ipsum, id gravida. Ac egestas ante in adipiscing in euismod 
+              ullamcorper elementum quis. Urna pretium sed lacus elit blandit non sed ultricies. In sed aliquam ultrices amet, 
+              enim nunc, ultrices viverra phasellus.
               </Disclosure.Panel>
             </>
           )}
@@ -52,8 +55,11 @@ function FAQsection() {
                 />
               </Disclosure.Button>
               <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
-                If you're unhappy with your purchase for any reason, email us
-                within 90 days and we'll refund you in full, no questions asked.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper morbi vel montes, 
+              ipsum ultricies mi nunc, scelerisque ac. Lacus facilisis porttitor aliquam quam consectetur. 
+              Diam ultrices sem purus felis lectus ipsum, id gravida. Ac egestas ante in adipiscing in euismod 
+              ullamcorper elementum quis. Urna pretium sed lacus elit blandit non sed ultricies. In sed aliquam ultrices amet, 
+              enim nunc, ultrices viverra phasellus.
               </Disclosure.Panel>
             </>
           )}
@@ -72,8 +78,11 @@ function FAQsection() {
                 />
               </Disclosure.Button>
               <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
-                If you're unhappy with your purchase for any reason, email us
-                within 90 days and we'll refund you in full, no questions asked.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper morbi vel montes, 
+              ipsum ultricies mi nunc, scelerisque ac. Lacus facilisis porttitor aliquam quam consectetur. 
+              Diam ultrices sem purus felis lectus ipsum, id gravida. Ac egestas ante in adipiscing in euismod 
+              ullamcorper elementum quis. Urna pretium sed lacus elit blandit non sed ultricies. In sed aliquam ultrices amet, 
+              enim nunc, ultrices viverra phasellus.
               </Disclosure.Panel>
             </>
           )}
@@ -92,8 +101,11 @@ function FAQsection() {
                 />
               </Disclosure.Button>
               <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
-                If you're unhappy with your purchase for any reason, email us
-                within 90 days and we'll refund you in full, no questions asked.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper morbi vel montes, 
+              ipsum ultricies mi nunc, scelerisque ac. Lacus facilisis porttitor aliquam quam consectetur. 
+              Diam ultrices sem purus felis lectus ipsum, id gravida. Ac egestas ante in adipiscing in euismod 
+              ullamcorper elementum quis. Urna pretium sed lacus elit blandit non sed ultricies. In sed aliquam ultrices amet, 
+              enim nunc, ultrices viverra phasellus.
               </Disclosure.Panel>
             </>
           )}
