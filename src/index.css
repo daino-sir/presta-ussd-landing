@@ -20,10 +20,6 @@ body {
     background-color: white;
 }
 
-h1 {
-    font-weight: bolder;
-}
-
 
 /* width */
 
@@ -94,4 +90,10 @@ h1 {
     background-position: center;
     background-size: cover;
     background-color: #c4bb1b;
+}
+
+.blue-bg {
+    background: url('./assets/imgs/reactangle-bg.png');
+    background-position: center;
+    background-size: cover;
 }

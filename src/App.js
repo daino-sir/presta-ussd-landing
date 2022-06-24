@@ -1,8 +1,8 @@
 import FAQsection from './components/atoms/FAQsection';
 import Footer from './components/atoms/footer';
 import Hero from './components/atoms/Hero';
-import SectionOne from './components/atoms/Sponsers';
-import SectionThree from './components/atoms/SectionThree';
+import Sponsors from './components/atoms/Sponsers';
+import ProcessOne from './components/atoms/SectionThree';
 import SectionTwo from './components/atoms/SectionTwo';
 
 function App() {
@@ -34,9 +34,9 @@ function App() {
   return (
     <>
     <Hero/>
-    <SectionOne/>
+    <Sponsors/>
+    <ProcessOne/>
     <SectionTwo/>
-    <SectionThree/>
     <FAQsection/>
     <Footer/>
     </>
