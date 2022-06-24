@@ -2,8 +2,8 @@ import FAQsection from './components/atoms/FAQsection';
 import Footer from './components/atoms/footer';
 import Hero from './components/atoms/Hero';
 import Sponsors from './components/atoms/Sponsers';
-import ProcessOne from './components/atoms/SectionThree';
-import SectionTwo from './components/atoms/SectionTwo';
+import ProcessOne from './components/atoms/LoanProcess';
+import SectionTwo from './components/atoms/GuarantorshipProcess';
 
 function App() {
 

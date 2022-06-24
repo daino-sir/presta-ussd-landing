@@ -14,7 +14,6 @@ body {
 }
 
 .dual-bg {
-    background: url('./assets/imgs/dual-bg.png');
     background-position: center;
     background-size: cover;
     background-color: white;
@@ -96,4 +95,5 @@ body {
     background: url('./assets/imgs/reactangle-bg.png');
     background-position: center;
     background-size: cover;
+    border-radius: 10px;
 }

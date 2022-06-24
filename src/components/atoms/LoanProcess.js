@@ -33,9 +33,12 @@ export default function ProcessOne() {
   return (
     <div className='flex flex-col px-6 bg-white w-full blue-bg'>
       <div className="w-full py-16">
-      <h1 className="text-3xl md:text-6xl font-black text-white text-center">Loan Application <span className='font-black'>Simplified</span></h1>
+      <h1 className="text-3xl md:text-6xl font-black text-white text-center">Loan Application <br/><span className='font-black'>Simplified</span></h1>
       </div>
-      <div className="w-full py-16">
+      <div className="w-full">
+        <p className="text-base md:text-lg font-black text-white text-center">How to apply for a Loan</p>
+      </div>
+      <div className="w-9/12 self-center py-16">
         <img
         src={Process}
         />
