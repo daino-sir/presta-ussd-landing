@@ -21,10 +21,10 @@ function FAQsection() {
                 <ChevronUpIcon
                   className={`${
                     open ? 'rotate-180 transform' : ''
-                  } h-5 w-5 text-gray-500`}
+                  } h-5 w-5 text-black`}
                 />
               </Disclosure.Button>
-              <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
+              <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm font-black text-gray-500">
               No. The Sacco loan  application form will be provided electronically to the loan applicant and guarantor's selected.
               </Disclosure.Panel>
             </>
@@ -43,7 +43,7 @@ function FAQsection() {
                   } h-5 w-5 text-gray-500`}
                 />
               </Disclosure.Button>
-              <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
+              <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm font-black text-gray-500">
               The loan applicant will be notified via sms everytime a guarantor signs or declines to sign the loan form.
               </Disclosure.Panel>
             </>
@@ -62,7 +62,7 @@ function FAQsection() {
                   } h-5 w-5 text-gray-500`}
                 />
               </Disclosure.Button>
-              <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
+              <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm font-black text-gray-500">
               The guarantors will be notified of the applicants request via SMS at which point they could either choose to approve or decline to guarantee the loan.
               </Disclosure.Panel>
             </>
@@ -81,7 +81,7 @@ function FAQsection() {
                   } h-5 w-5 text-gray-500`}
                 />
               </Disclosure.Button>
-              <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
+              <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm font-black text-gray-500">
               Dial the Sacco USSD code (e.g. *483*123#) and select option 3. Replace guarantor and follow the prompts to replace a guarantor. The process is the same on the mobile app
               </Disclosure.Panel>
             </>
@@ -100,7 +100,7 @@ function FAQsection() {
                   } h-5 w-5 text-gray-500`}
                 />
               </Disclosure.Button>
-              <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
+              <Disclosure.Panel className="px-4 pt-4 pb-2 font-black text-sm text-gray-500">
               The loan application process can begin on  SACCO USSD and the guarantor can sign from on their email accessed from computer, tablet or smartphone, or any other electronic device at their convenience to sign the loan form.
               </Disclosure.Panel>
             </>
@@ -119,7 +119,7 @@ function FAQsection() {
                   } h-5 w-5 text-gray-500`}
                 />
               </Disclosure.Button>
-              <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
+              <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm font-black text-black">
               Yes. The loan application process is only accessible to the Sacco membership of which each member will create a security PIN to access the service. This PIN is not to be shared with anyone else.
               </Disclosure.Panel>
             </>
