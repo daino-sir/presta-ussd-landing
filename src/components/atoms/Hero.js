@@ -20,8 +20,8 @@ function Hero() {
     //     </div>
     // </div>
     <div className='w-full flex flex-col w-full dual-bg'>
-     <img alt='section_two' src={HeroImg} className='hidden md:flex object-none self-center h-full w-full'/>  
-     <img alt='section_two' src={HeroImgMob} className='flex md:hidden object-none h-full w-full'/>  
+     <img alt='section_two' src={HeroImg} className='hidden md:flex object-contain self-center h-full w-full'/>  
+     <img alt='section_two' src={HeroImgMob} className='flex md:hidden object-contain h-full w-full'/>  
     </div>
   )
 }

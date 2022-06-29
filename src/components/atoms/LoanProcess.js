@@ -40,6 +40,7 @@ export default function ProcessOne() {
       </div>
       <div className="w-9/12 self-center py-16">
         <img
+        className='object-contain'
         src={Process}
         />
       </div>
