@@ -1,34 +1,9 @@
 import { useState } from 'react'
 import { Tab } from '@headlessui/react'
 import Process from '../../assets/imgs/processes.png'
-
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
-}
+import ProcessMobi from '../../assets/imgs/process-mobi.png'
 
 export default function ProcessOne() {
-  let [categories] = useState({
-    USSD: [
-      {
-        id: 1,
-        title: 'Does drinking coffee make you smarter?',
-        date: '5h ago',
-        commentCount: 5,
-        shareCount: 2,
-        image: '../../assets/imgs/processes.png',
-      },
-    ],
-    App: [
-      {
-        id: 1,
-        title: 'Is tech making coffee better or worse?',
-        date: 'Jan 7',
-        commentCount: 29,
-        shareCount: 16,
-        image: '../../assets/imgs/processes.png',
-      },
-    ],
-  })
 
   return (
     <div className='flex flex-col px-6 bg-white w-full blue-bg'>
@@ -40,8 +15,12 @@ export default function ProcessOne() {
       </div>
       <div className="w-9/12 self-center py-16">
         <img
-        className='object-contain'
+        className='hidden md:flex object-contain'
         src={Process}
+        />
+         <img
+        className='flex md:hidden object-contain'
+        src={ProcessMobi}
         />
       </div>
     {/* <div className="w-full max-w-md px-2 py-16 sm:px-0">

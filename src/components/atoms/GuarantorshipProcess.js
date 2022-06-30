@@ -1,5 +1,6 @@
 import React from 'react';
 import Process from '../../assets/imgs/Process-two.png'
+import ProcessMobi from '../../assets/imgs/process-two-mobi.png'
 
 function GuarantorshipProcess() {
   return (
@@ -11,10 +12,14 @@ function GuarantorshipProcess() {
     <p className="text-base md:text-lg font-black text-gray-800 text-center">How to apply for Guarantorship</p>
     </div>
     <div className="w-9/12 self-center py-16">
-      <img
-      className='object-contain'
-      src={Process}
-      />
+    <img
+        className='hidden md:flex object-contain'
+        src={Process}
+        />
+         <img
+        className='flex md:hidden object-contain'
+        src={ProcessMobi}
+        />
     </div>
     </div>
   )
