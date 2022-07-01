@@ -7,7 +7,7 @@ function Hero() {
     // <div className='flex flex-col md:flex-row items-center content-center justify-center h-screen w-full bg-white'>
     //     <div className='flex flex-col md:w-6/12 h-2/6 justify-evenly md:px-8'>
     //     <h1 className="text-6xl md:text-8xl md:text-left font-black text-blue-600 text-center">
-    //         Presta USSD
+    //     Guarantee loans <span>Anywhere & Anytime</span>
     //     </h1>
     //     <p className='text-lg font-thin md:text-xl text-blue-600 text-center md:text-left'>Guarantee loans Anywhere and Anytime</p>
     //     <div className='flex flex-col w-full items-center md:flex-row'>
