@@ -5,9 +5,9 @@ import { config } from '../../data/constants/config';
 
 function Footer() {
   return (
-      <div className='flex flex-col md:flex-row md:mx-16 md:my-16 justify-evenly blue'>
+      <div className='flex h-screen md:h-auto flex-col-reverse md:flex-row md:mx-16 md:my-16 justify-evenly blue'>
         {/* 1st column */}
-      <div className='md:my-26 flex flex-col my-6 h-36 w-full justify-evenly blue'>
+        <div className='md:my-26 flex flex-col h-36 w-full justify-evenly blue'>
           <p class="mt-2 max-w-[20rem] text-lg text-white/80"> Grow your business, unlock new efficiencies and create happier & more loyal customers with Presta</p>
       <h1 class="text-4xl font-bold text-white my-6">Follow Us</h1>
       <footer class="flex justify-between mt-2">
@@ -27,7 +27,7 @@ function Footer() {
                 </div>
             </footer>
       </div>
-      <div className='md:my-26 flex flex-col my-6 h-36 w-full justify-evenly blue'>
+      <div className='md:my-26 flex flex-col h-36 w-full justify-evenly blue'>
       <h1 class="text-4xl font-bold text-white my-6">Products & Services</h1>
             <div class="rounded-lg w-1/2">
                 <ul class="divide-y divide-gray-300">
